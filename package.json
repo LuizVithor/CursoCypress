@@ -1,0 +1,14 @@
+{
+  "name": "cursocypress",
+  "version": "1.0.0",
+  "description": "Curso CyPress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Luiz Vithor Galvão Alves de Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.11.0"
+  }
+}
