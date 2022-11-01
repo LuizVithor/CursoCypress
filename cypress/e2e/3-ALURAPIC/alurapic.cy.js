@@ -50,7 +50,7 @@ describe('login e registro de usuários alura pic' , ()=>{
     it('verificação de mensagem de nome sem letra maiuscula' , () => {
         cy.contains('a', 'Register now').click();
         cy.contains('button', 'Register').click();
-        cy.get('input[formcontrolname="username"]').type(geraStringAleatoriamaiuscula(3));
+        cy.get('input[formcontrolname="userName"]').type(geraStringAleatoriamaiuscula(3));
         cy.contains('button', 'Register').click();
         cy.contains('ap-vmessage' , 'Must be lower case').should('be.visible');
     })
